@@ -100,6 +100,7 @@ function App() {
               />
             </div>
           </div>
+        </div>
           <div className="end-total">
             <TipSection title="Tip Amount" caluculatedValue={tipPerPerson} />
             <TipSection title="Total" caluculatedValue={totalPerPerson} />
@@ -107,7 +108,6 @@ function App() {
               RESET
             </button>
           </div>
-        </div>
       </div>
     </div>
   );
