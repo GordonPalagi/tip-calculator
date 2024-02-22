@@ -56,7 +56,6 @@
     display: flex;
     background-color: hsl(189, 41%, 97%);
     width: 375px;
-    height: 100%;
     border-radius: 10px;
     box-shadow: 0px -5px 5px -4px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -73,18 +72,14 @@ label {
 }
 
 .wrapper {
-    width: 100%;
+    /* width: 100%; */
     padding: 12px 0px;
 }
-
-
-
 
 .bill-input-wrapper {
     display: flex;
     align-items: center;
     background-color: hsl(185, 41%, 84%);
-    padding: 0px 5px;
 }
 
 .bill-total {
@@ -105,7 +100,6 @@ label {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    padding: 10px;
     width: 100%;
     gap: 10px;
 }
@@ -139,6 +133,7 @@ input:focus::placeholder {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-left: 10px;
     font-size: 1.5rem;
     font-weight: 800;
     background-color: hsl(183, 100%, 15%);
@@ -180,26 +175,17 @@ input:focus::placeholder {
 
 @media screen and (min-width: 768px) {
     .App {
-        justify-content: center;
+        /* justify-content: center; */
     }
     .calculator-body {
         width: fit-content;
-        height: fit-content;
+        /* height: fit-content; */
     }
 
     .calculator-interface {
         display: flex;
         flex-direction: row;
         width: 100%;
-    }
-
-    .end-total {
-        display: flex;
-        align-items: center;
-        width: 300px;
-        height: 95%;
-        padding: 30px;
-        margin: 10px;
     }
     
 }
